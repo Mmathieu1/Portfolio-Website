@@ -1,0 +1,103 @@
+/*
+Colors used:
+Primary Background Color (white): #ffffff
+Secondary Color 1 (blue): #22ccd5
+Secondary Background (yellow): #fed831
+Font Color (black): #333333
+*/
+
+body{
+  background-color: #ffffff;
+  font-family: 'Kameron', serif;
+  font-size:16px; /*sets the font size to 16px*/
+  font-weight: 300;/*sets font weight to 300*/
+  line-height: 1.6;/*sets the line height to 1.6* the font size*/
+  font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.74em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+img {
+  width:100%;
+}
+a{
+  color: #22ccd5;
+  text-decoration: none;/*no underlinging*/
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: underline; /*underlinging when hovering over link */
+}
+a:visited {
+  color: #333333; /*visited link*/
+}
+a:active {
+  color: #333333; /*selected link*/
+}
+a:hover,
+a:focus {
+  color: #fed831;
+  text-decoration: underline;
+}
+.button {/*keep this rule close to the bottom to avoid overide*/
+  display: inline-block;
+  background-color: #22ccd5;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #333333
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button.email {
+  background-color: transparent;
+  color: #22ccd5;
+  text-transform: uppercase;
+  border: 2px solid #22ccd5;
+}
+.button.email:hover {
+  background-color: #fed831;
+  color: #ffffff;
+}
+.button.home {
+  background-color: transparent;
+  color: #22ccd5;
+}
+.button.home:hover {
+  color: #333333
+}
+.button.about {
+  background-color: transparent;
+  color: #22ccd5;
+}
+.button.about:hover {
+  color: #333333
+}
+.button.contact {
+  background-color: transparent;
+  color: #22ccd5;
+}
+.button.contact:hover {
+  color: #333333
+}

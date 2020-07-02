@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html long="en" dir="ltr">
 <head>
-  <link rel="stylesheet" type="text/css href="css/css_code/style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize">
+  <link rel="stylesheet" type="text/css" href="css/css_code/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kameron&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <title>MelissaMiddyMathieu UX/UI Designer Texas</title>
 <link rel="apple-touch-icon" sizes="180x180" href="./Favi_Icon/favicon_package/apple-touch-icon.png">
@@ -14,7 +17,7 @@
 </head>
 <body>
   <header>
-    <div>
+    <div id="hero-section">
       <img
       src="https://imgur.com/E6D34K1.png"
       alt="Your Name"
@@ -23,15 +26,15 @@
       />
     <nav>
       <ul>
-        <li><a href="index.html">Work</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="button home">Work</a></li>
+        <li> <a href="about.html" class="button about">About</a></li>
+        <li><a href="#contact" class="button contact">Contact</a></li>
       </ul>
     </nav>
   </div>
   </header>
 <main>
-  <div>
+  <div id="work-section">
   <h1>
     Hi!  I'm Melissa, but you can call me Middy.
   </h1>
@@ -61,7 +64,7 @@
     <p><!-- open paragraph -->
       Skills used: Competetor Analysis, Personas, User Journey's and Flows, Wire Frames, Information Architecture, Low to High Fidelity Mockups and UI Style Guide.
     </p><!-- end paragraph -->
-    <a href="Purrsuit.html">Read More
+    <a href="Purrsuit.html" class="button">Read More
     </a><!-- button or link label -->
   </div><!-- end second column -->
 </div><!-- end row that holds (2) columns for project -->
@@ -81,7 +84,7 @@
   </p><!-- end paragraph -->
     <p><!-- open paragraph -->
         Used Pages and Keynote to create profile pages for all possibilities, user flow example and organize the edited code for AWS Lambada.    </p><!-- end paragraph -->
-    <a href="">
+    <a href="" class="button">
       Read more
     </a><!-- button or link label -->
   </div><!-- end second column -->
@@ -103,12 +106,14 @@
     <p><!-- open paragraph -->
       Will utilize research from local shelters, competitor analysis, wire frames up to mockups.  Programs to be used is Adobe Photoshop, Sketch, After Effects and Invision.
 </p><!-- end paragraph -->
-    <a href="">
+    <a href="" class="button">
       Read more
     </a><!-- button or link label -->
   </div><!-- end second column -->
 </div><!-- end row that holds (2) columns for project -->
-  </div></main>
+  </div>
+</main>
+<div id="contact-section">
 <footer>
   <h2>
     Get in Touch
@@ -120,7 +125,7 @@
     Prefer sending an email?
 </p>
 <div>
-  <a href="middy.designs@gmail.com">Email me</a>
+  <a href="middy.designs@gmail.com" class="button email">Email me</a>
   <div>
     <!--Social Media Layout and Placeholders-->
     <a href="https://www.linkedin.com/in/melissamiddymathieu/" target="_blank">
@@ -132,6 +137,7 @@
       Copyright Melissa Middy Mathieu2020
     </p>
   </div>
+</div>
 </div>
 </footer>
 </body>
