@@ -195,6 +195,15 @@ nav > ul > li > a {
 .tools {
   text-align: center;
 }
+.flow {
+  text-align: center;
+}
+.wireframe {
+  text-align: center;
+}
+.testing {
+  text-align: center;
+}
 .approach > ul > {
   list-style-type: none;
 }
