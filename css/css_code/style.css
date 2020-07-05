@@ -56,14 +56,23 @@ a:focus {
   color: #fed831;
   text-decoration: underline;
 }
-.button {/*keep this rule close to the bottom to avoid overide*/
+header {
+  background-color: #fed831;
+  padding: 10px;
+  margin: 10px;
+}
+footer {
+  background-color: #fed831;
+  padding: 10px;
+  margin: 10px;
+}
+.button { /*keep this rule close to the bottom to avoid overide*/
   display: inline-block;
   background-color: #22ccd5;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #333333
   transition: 0.2s opacity;
 }
 .button:hover {
