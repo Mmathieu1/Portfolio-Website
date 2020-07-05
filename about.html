@@ -17,10 +17,11 @@
 </head>
 <body>
   <header>
-    <div id="hero-section" class="container">
+    <div id="header-section" class="container">
       <a href="about.html">
             <!--Top Navigation-->
       <img
+      class="logo"
       src="https://imgur.com/E6D34K1.png"
       alt="Your Name"
       witdth="150"
@@ -29,18 +30,21 @@
     </a>
     <nav>
       <ul>
-        <li><a href="index.html">Work</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="button home">Work</a></li>
+        <li> <a href="about.html" class="button about">About</a></li>
+        <li><a href="#contact" class="button contact">Contact</a></li>
       </ul>
     </nav>
   </div>
   </header>
 <main>
-  <div id="work-section" class="container">
+  <div id="hero" class="container">
     <picture>
     <source srcset="img/profile/profilephoto600px.png" media="(max-width:767px)">
-    <img src="img/profile/profilephoto1200px.png" alt="Profile">
+    <img
+    class="me"
+    src="img/profile/profilephoto1200px.png"
+    alt="Profile">
     </picture>
     <div>
   <h1>
@@ -115,7 +119,10 @@
 </main>
 <div id="contact-section" class="container">
 <footer>
-  <h2>Get in Touch</h2>
+  <div class="get">
+  <h2>
+    Get in Touch
+  </h2>
 <p>
   Whether you need a Ux Designer on your team, an Illustrator to bring your stories to life or just want to nerd out over the newest Disney film I'd love to hear from you. Call: <a href="tel:6784691702">678 469 1702</a> </p>
   <p>Prefer sending an email?
@@ -125,9 +132,13 @@
   <div>
     <!--Social Media Layout and Placeholders-->
     <a href="https://www.linkedin.com/in/melissamiddymathieu/" target="_blank">
-        <img src="img/profile/linkedin.png" alt="Linkedin">
+        <img
+        class="linkedin"
+        src="img/profile/linkedin.png"
+        alt="Linkedin">
     </a>
   </div>
+</div>
   <div>
     <p>
       Copyright Melissa Middy Mathieu2020

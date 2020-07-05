@@ -18,11 +18,12 @@
 <!-- end head -->
 <body>
   <header>
-      <div id="hero-section" class="container">
+      <div id="header-section" class="container">
         <a href="index.html">
                 <!--Top Navigation-->
           <picture>
       <img
+      class="logo"
       src="https://imgur.com/E6D34K1.png"
       alt="Your Name"
       witdth="150"
@@ -31,7 +32,7 @@
     </picture>
   </a>
     <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="index.html" class="button home">Work</a></li>
         <li> <a href="about.html" class="button about">About</a></li>
         <li><a href="#contact" class="button contact">Contact</a></li>
@@ -47,23 +48,27 @@
   <h1>
     Hi!  I'm Melissa, but you can call me Middy.
   </h1>
+  <div class="welcome"
   <p>
     I've always have had a passion for design and a great curiosity for why and how things are made and work.
   </p>
   <p>
     UX Design allows me to explore all of these interests and my background in illustration brings my designs to eye-catching life!
   </p>
+</div>
 </div><!-- open row that holds (2) columns for project -->
-  <div id="work"><!-- open first column (used for image) -->
+  <div id="work">
+    <div class="container"><!-- open first column (used for image) -->
     <h2>
       My Work
     </h2>
+    <div class="row">
   <picture>
   <source srcset="img/purrsuitimages/Final.600px.jpg" media="(max-width:767px)">
   <img src="img/purrsuitimages/Final.1200px.jpg" alt="My Image">
   </picture>
     </div><!-- end first column -->
-  <div><!-- open second column (used for text) -->
+  <div class="row"><!-- open second column (used for text) -->
     <h3>
       Purrsuit
     </h3><!-- heading for the project -->
@@ -77,14 +82,14 @@
     </a><!-- button or link label -->
   </div><!-- end second column -->
 </div><!-- end row that holds (2) columns for project -->
-  <div><!-- open row that holds (2) columns for project -->
-  <div><!-- open first column (used for image) -->
+  <div class="container"><!-- open row that holds (2) columns for project -->
+  <div class="row"><!-- open first column (used for image) -->
     <picture>
     <source srcset="img/cheeseimage/Cheese.Tittle600px.jpg" media="(max-width:767px)">
     <img src="img/cheeseimage/Cheese.Tittle1200px.jpg" alt="My Image">
     </picture>
     </div><!-- end first column -->
-  <div><!-- open second column (used for text) -->
+  <div class="row"><!-- open second column (used for text) -->
     <h3>
         What Cheese Am I?
     </h3><!-- heading for the project -->
@@ -98,14 +103,16 @@
     </a><!-- button or link label -->
   </div><!-- end second column -->
 </div><!-- end row that holds (2) columns for project -->
-<div><!-- open row that holds (2) columns for project -->
-  <div><!-- open first column (used for image) -->
+<div class="row"><!-- open row that holds (2) columns for project -->
+  <div class="container"><!-- open first column (used for image) -->
   <picture>
   <source srcset="img/pawsimages/Pawsitive.Tittle600px.jpg" media="(max-width:767px)">
   <img src="img/pawsimages/Pawsitive.Tittle1200px.jpg" alt="My Image">
   </picture>
+</div>
     </div><!-- end first column -->
-  <div><!-- open second column (used for text) -->
+  <div class="container" class="row">
+    <div><!-- open second column (used for text) -->
     <h3>
       Pawsitive Match Maker?
     </h3><!-- heading for the project -->
@@ -123,8 +130,9 @@
   </div>
 </main>
 <!-- End Main -->
-<div id="contact-section" class="container">
+<div id="contact-section">
 <footer>
+  <div class="get">
   <h2>
     Get in Touch
   </h2>
@@ -135,11 +143,15 @@
     Prefer sending an email?
 </p>
 <div>
-  <a href="middy.designs@gmail.com" class="button email">Email me</a>
+  <a href="middy.designs@gmail.com" class="button email">Email me
+  </a>
   <div>
     <!--Social Media Layout and Placeholders-->
     <a href="https://www.linkedin.com/in/melissamiddymathieu/" target="_blank">
-        <img src="img/profile/linkedin.png" alt="Linkedin">
+        <img
+        class="linkedin"
+        src="img/profile/linkedin.png"
+        alt="Linkedin">
     </a>
   </div>
   <div>
@@ -147,6 +159,7 @@
       Copyright Melissa Middy Mathieu2020
     </p>
   </div>
+</div>
 </div>
 </footer>
 <!-- End Footer-->

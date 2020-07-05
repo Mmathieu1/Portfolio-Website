@@ -17,9 +17,10 @@
 </head>
 <body>
   <header>
-    <div id="hero-section" class="container">
+    <div id="header-section" class="container">
       <a href="purrsuit.html">
       <img
+      class="logo"
       src="https://imgur.com/E6D34K1.png"
       alt="Your Name"
       witdth="150"
@@ -28,17 +29,19 @@
       </a>
     <nav>
       <ul>
-        <li><a href="index.html">Work</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="button home">Work</a></li>
+        <li> <a href="about.html" class="button about">About</a></li>
+        <li><a href="#contact" class="button contact">Contact</a></li>
       </ul>
     </nav>
   </div>
   </header>
   <main>
-    <div id="work-section" class="container">
+    <div>
+    <div id="hero" class="container">
       <div>
       <div>
+        <div id="purrsuit">
       <h1>
         Purrsuit
         </h1>
@@ -53,7 +56,8 @@
             </ul>
             </h3>
             </div>
-            <div>
+            </div>
+            <div class="overview">
               <h2>
                 Overview
                 </h2>
@@ -61,7 +65,7 @@
                   Purrsuit is an app designed to be an interactive scavenger/treasure hunt that provides a fun and challenging activity for a wide range of players. (Extra points for cat lovers!) Purrsuit's fun theme will provide entertainment for many played games to come!
                   </p>
                   </div>
-                  <div>
+                  <div class="purpose">
                     <h2>
                       Purpose & Context
                       </h2>
@@ -69,7 +73,7 @@
                         Purrsuit is a sinlge person project completed as a part of CareerFoundry's Certified UX Design Immersion Course.  During this course I was introduced and dove into the full UX process from Research, Interviews to Wireframes and Mockups.  The goal being able to apply these skills to build a mobil application in course and our in real world projects.
                         </p>
                         </div>
-                        <div>
+                        <div class="approach">
                           <h2>
                             Approach
                             </h2>
@@ -78,7 +82,7 @@
                               <li>Design Thinking</li>
                               </ul>
                               </div>
-                              <div>
+                              <div class="tools">
                                 <h2>
                                   Tools used
                                   </h2>
@@ -93,6 +97,7 @@
                                     <li>Survey Monkey</li>
                                     <li>Google Docs</li>
                                     </ul>
+                                    </div>
                                     </div>
                                     <div>
                                     <h1>
@@ -178,6 +183,7 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
 <div>
@@ -235,6 +241,9 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
 </div>
 <div>
 
@@ -298,11 +307,16 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
 </div>
 </div>
 </main>
 <div id="contact-section" class="container">
  <footer>
+   <div class="get">
    <h2>
      Get in Touch
    </h2>
@@ -315,9 +329,13 @@
  <div>
    <a href="middy.designs@gmail.com" class="button email">Email me</a>
    <div>
+     </div>
      <!--Social Media Layout and Placeholders-->
      <a href="https://www.linkedin.com/in/melissamiddymathieu/" target="_blank">
-         <img src="img/profile/linkedin.png" alt="Linkedin">
+         <img
+         class="linkedin"
+         src="img/profile/linkedin.png"
+         alt="Linkedin">
      </a>
    </div>
    <div>
