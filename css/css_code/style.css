@@ -6,6 +6,9 @@ Secondary Background (yellow): #fed831
 Font Color (black): #333333
 */
 
+* {
+  box-sizing: border-box;
+}
 body{
   background-color: #ffffff;
   font-family: 'Kameron', serif;
@@ -60,7 +63,6 @@ header {
   background-color: #fed831;
   text-align: center;
   padding: 10px;
-  margin: 10px;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
@@ -71,7 +73,6 @@ width: 100%;
 footer {
   background-color: #fed831;
   padding: 10px;
-  margin: 10px;
 }
 main{
   padding-top: 133px;
@@ -121,12 +122,9 @@ main{
   color: #333333
 }
 /* Layout Styling*/
-}
+
 .container {
   padding: 0 15px;
-}
-* {
-  box-sizing: border-box;
 }
 .row {
   margin:25px 0; /*25px top and bottom, 0 left and right*/
