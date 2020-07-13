@@ -73,17 +73,25 @@ width: 100%;
 footer {
   background-color: #fed831;
   padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 main{
   padding-top: 133px;
+}
+.myinfo {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .button { /*keep this rule close to the bottom to avoid overide*/
   display: inline-block;
   background-color: #22ccd5;
   color: #ffffff;
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
+  border-bottom: 2px solid #333333;
   transition: 0.2s opacity;
 }
 .button:hover {
@@ -103,6 +111,7 @@ main{
 .button.home {
   background-color: transparent;
   color: #22ccd5;
+  border-bottom: none;
 }
 .button.home:hover {
   color: #333333
@@ -110,6 +119,7 @@ main{
 .button.about {
   background-color: transparent;
   color: #22ccd5;
+  border-bottom: none;
 }
 .button.about:hover {
   color: #333333
@@ -117,6 +127,7 @@ main{
 .button.contact {
   background-color: transparent;
   color: #22ccd5;
+  border-bottom: none;
 }
 .button.contact:hover {
   color: #333333
@@ -129,10 +140,10 @@ main{
 .row {
   margin:25px 0; /*25px top and bottom, 0 left and right*/
 }
-#work .row {
-  padding-bottom: 25px;
-  border-bottom:
-  1px solid #333333;
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #hero h1{
@@ -304,3 +315,102 @@ nav > ul > li > a {
   to {opacity: 1}
 }
 /* End of SlideShow*/
+
+/*CSS Animation on home page start*/
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation-duration: 34s;
+  animation-name: cloud-move-reverse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+/*End CSS animation on home page*/
+
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+  header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+main {
+  padding-top: 99px;
+}
+body {
+  font-size: 18px;
+}
+#hero span {
+  display: block;
+}
+.col-md-6 {
+  width: 50%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+.row: after {
+  content:"";
+  clear: both;
+  display: table;
+}
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .col-lg.5 {
+    width: 41.66%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
