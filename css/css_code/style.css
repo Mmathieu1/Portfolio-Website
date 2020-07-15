@@ -401,7 +401,8 @@ animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin-left: 30px;
-  margin-top:5px;
+  margin-top:5px
+}
 
 
 /* ==============================
@@ -434,7 +435,7 @@ body {
   float: left;
   padding: 10px;
 }
-.row: after {
+.row:after {
   content:"";
   clear: both;
   display: table;
@@ -445,7 +446,7 @@ body {
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .col-lg.5 {
+  .col-lg-5 {
     width: 41.66%;
   }
   .col-lg-7 {
@@ -462,4 +463,5 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
 }
