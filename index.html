@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html long="en" dir="ltr">
 <head>
+  <script src="https://kit.fontawesome.com/f1ed58afcf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/css_code/style.css">
+  <script src="js/js_code/jquery-3.3.1.min.js"></script>
+<script src="js/js_code/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Kameron&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
@@ -19,6 +22,7 @@
 <body>
   <header>
       <div id="header-section" class="container">
+        <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
                 <!--Top Navigation-->
           <picture>
@@ -37,8 +41,10 @@
         <li><a href="index.html" class="button home">Work</a></li>
         <li> <a href="about.html" class="button about">About</a></li>
         <li><a href="#contact-section" class="button contact">Contact</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
       </ul>
     </nav>
+  </div>
   </div>
   </header>
   <!--End of Headder-->
