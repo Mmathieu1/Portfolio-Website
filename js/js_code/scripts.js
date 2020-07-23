@@ -7,3 +7,5 @@ console.log("Hello!  Welcome to my Portfolio Site.  Take a peek around!");
     } else {
       x.className = 'navtoggle';
     }
+  }
+  

@@ -4,10 +4,12 @@
   <script src="https://kit.fontawesome.com/f1ed58afcf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/css_code/style.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
   <script src="js/js_code/jquery-3.3.1.min.js"></script>
 <script src="js/js_code/scripts.js"></script>
+<script src="js/js_code/lightbox-plus-jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Kameron&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <title>MelissaMiddyMathieu UX/UI Designer Texas</title>
 <link rel="apple-touch-icon" sizes="180x180" href="./Favi_Icon/favicon_package/apple-touch-icon.png">
@@ -38,7 +40,7 @@
       <ul>
         <li><a href="index.html" class="button home">Work</a></li>
         <li> <a href="about.html" class="button about">About</a></li>
-        <li><a href="#contact-section" class="button contact">Contact</a></li>
+        <li><a href="#contact-section" class="button contact" onclick="menuToggle()">Contact</a></li>
         <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
       </ul>
     </nav>
@@ -54,16 +56,24 @@
       <h1>
         Purrsuit
         </h1>
+        <picture>
+          <div class="purr-top">
+        <source srcset="img/purrsuitimages/pursuit.tittle.600px.jpg" media="(max-width:767px)">
+        <img src="img/purrsuitimages/pursuit.tittle.600px.jpg">
+      </div>
+      </picture>
         <p>
           Scavenger hunt apps provide users with social stimulation alongside mental and some physical activity. The app needs to be simple yet intriguing enough to be able hold the attention for a group of multiple players for the time span of the game. App will need to be reliable where internet connection is scarce as to not disconnect the players. We know these features are important, when interviewing players and reviewing similar app reviews; the most common complaints being not able to play without internet connection and gameplay is too simple and repetitive-making the player bored.  To make Purrsuit a Scavenger hunt to stand out from the competitors:
           </p>
-          <h2>
+          <h4>
+            <div class="points">
           <ul>
             <li>Making the ability to play in any sized group, including a single player.</li>
             <li>Give the App a creative theme.mission to keep the user's attention through the entire game play.</li>
             <li>Provide pre-made hunts as well as generic hunts that can be played anywhere.</li>
             </ul>
-          </h2>
+          </div>
+          </h4>
             </div>
             </div>
             <div class="overview">
@@ -86,275 +96,112 @@
                           <h2>
                             Approach
                             </h2>
-                            <ul>
-                              <li>User Centered Design</li>
-                              <li>Design Thinking</li>
-                              </ul>
+                          User Centered Design*Design Thinking
+
                               </div>
                               <div class="tools">
                                 <h2>
-                                  Tools used
+                                  Tools
                                   </h2>
-                                  <ul>
-                                    <li>Pencil & Paper</li>
-                                    <li>Balsamiq</li>
-                                    <li>Sketch</li>
-                                    <li>Photoshop CS</li>
-                                    <li>Adobe XD</li>
-                                    <li>Invision</li>
-                                    <li>Optimal Support</li>
-                                    <li>Survey Monkey</li>
-                                    <li>Google Docs</li>
-                                    </ul>
+                                  <p>
+                                    Pencil & Paper*Balsamiq*Sketch*Photoshop CS*Adobe XD*Invision*Optimal Support*Survey Monkey*Google Docs
+                                  </p>
                                     </div>
                                     </div>
-                                    <div>
-                                    <h1>
-                                      Personas
-                                      </h1>
-                                      </div>
-                                      </div>
-
-                                   <!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img/purrsuitimages/persona1.600px.jpg">
-    <div class="text">Personas</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img/purrsuitimages/persona2.600px.jpg">
-    <div class="text">Personas</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/purrsuitimages/persona3.600px.jpg">
-    <div class="text">Personas</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<h2 class="gal">
+  Gallery
+</h2>
+<div class="gal2">
+<p>
+  Click on an Image to Enlarge.
+</p>
 </div>
-<br>
+    <!--Gallery begins -->
+    <div class="gallery">
+      <a href="img/purrsuitimages/persona1.1200px.jpg" data-lightbox="mygallery" data-title="Persona 1"><img src="img/purrsuitimages/persona1.600px.jpg"></a>
+        <a href="img/purrsuitimages/persona2.1200px.jpg" data-lightbox="mygallery" data-title="Persona 2"><img src="img/purrsuitimages/persona2.600px.jpg"></a>
+          <a href="img/purrsuitimages/persona3.1200px.jpg" data-lightbox="mygallery" data-title="Persona 3"><img src="img/purrsuitimages/persona3.600px.jpg"></a>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+          <a href="img/purrsuitimages/sitemap1.1200px.jpg" data-lightbox="mygallery" data-title="Site Map"><img src="img/purrsuitimages/sitemap1.600px.jpg"></a>
+          <a href="img/purrsuitimages/sitemap2.1200px.jpg" data-lightbox="mygallery" data-title="Revised Site Map"><img src="img/purrsuitimages/sitemap2.600px.jpg"></a>
 
-<div class="flow">
-<h1>
-  Architecture, Flow & Journey
-  </h1>
-  </div>
-<div class="slideshow-container">
+          <a href="img/purrsuitimages/userflow.1200px.jpg" data-lightbox="mygallery" data-title="User Flow"><img src="img/purrsuitimages/userflow.600px.jpg"></a>
+          <a href="img/purrsuitimages/userjourney.1200px.jpg" data-lightbox="mygallery" data-title="User Journey"><img src="img/purrsuitimages/userjourney.600px.jpg"></a>
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 4</div>
-    <img src="img/purrsuitimages/sitemap1.600px.jpg">
-    <div class="text">Original Architecture</div>
-  </div>
+          <a href="img/purrsuitimages/wireframe1.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-sketch-login/account"><img src="img/purrsuitimages/wireframe1.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe2.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-sketch-post a photo"><img src="img/purrsuitimages/wireframe2.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe3.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-sketch-onboarding"><img src="img/purrsuitimages/wireframe3.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe4.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-Low/Mid Fidelity-loging/account"><img src="img/purrsuitimages/wireframe4.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe6.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-Low/Mid Fidelity-onboarding"><img src="img/purrsuitimages/wireframe6.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe7.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-Low/Mid Fidelity-onboarding-updated"><img src="img/purrsuitimages/wireframe7.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe8.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-Low/Mid Fidelity-post a photo"><img src="img/purrsuitimages/wireframes8.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe9.1200px.jpg" data-lightbox="mygallery" data-title="Wire Frame-Low/Mid Fidelity-swiping settings"><img src="img/purrsuitimages/wireframe9.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe10.1200px.jpg" data-lightbox="mygallery" data-title="Splash Page Evolution"><img src="img/purrsuitimages/wireframe10.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe11.1200px.jpg" data-lightbox="mygallery" data-title="Login page Evolution"><img src="img/purrsuitimages/wireframe11.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe12.1200px.jpg" data-lightbox="mygallery" data-title="Onboarding Evolution"><img src="img/purrsuitimages/wireframe12.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe13.1200px.jpg" data-lightbox="mygallery" data-title="Game Map Screen Evolution"><img src="img/purrsuitimages/wireframe13.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe14.1200px.jpg" data-lightbox="mygallery" data-title="Share a Photo Evolution"><img src="img/purrsuitimages/wireframe14.600px.jpg"></a>
+          <a href="img/purrsuitimages/wireframe15.1200px.jpg" data-lightbox="mygallery" data-title="Inventory Page-High Fidelity"><img src="img/purrsuitimages/wireframe15.600px.jpg"></a>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img src="img/purrsuitimages/sitemap2.600px.jpg">
-    <div class="text">Revised Architecture</div>
-  </div>
+          <a href="img/purrsuitimages/usertest1.1200px.png" data-lightbox="mygallery" data-title="User Test-Participant List"><img src="img/purrsuitimages/usertest1.600px.png"></a>
+          <a href="img/purrsuitimages/usertest2.1200px.jpg" data-lightbox="mygallery" data-title="User Test-Affinity Map"><img src="img/purrsuitimages/usertest2.600px.jpg"></a>
+          <a href="img/purrsuitimages/usertest4.1200px.jpg" data-lightbox="mygallery" data-title="User Test-Rainbow chart"><img src="img/purrsuitimages/usertest4.600px.jpg"></a>
+          <a href="img/purrsuitimages/usertest5.1200px.jpg" data-lightbox="mygallery" data-title="User Test-Results and Updates"><img src="img/purrsuitimages/usertest5.600px.jpg"></a>
+          <a href="img/purrsuitimages/usertest6.1200px.jpg" data-lightbox="mygallery" data-title="User Test-Results and Updates"><img src="img/purrsuitimages/usertest6.600px.jpg"></a>
+          <a href="img/purrsuitimages/usertest7.1200px.jpg" data-lightbox="mygallery" data-title="User Test-Results and Updates"><img src="img/purrsuitimages/usertest7.600px.jpg"></a>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img src="img/purrsuitimages/userflow.600px.jpg">
-    <div class="text">User Flow Example</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img src="img/purrsuitimages/userjourney.600px.jpg">
-    <div class="text">User Journey Example</div>
-  </div>
+          <a href="img/purrsuitimages/style1.1200px.jpg" data-lightbox="mygallery" data-title="Style-Logo"><img src="img/purrsuitimages/style1.600px.jpg"></a>
+          <a href="img/purrsuitimages/style2.1200px.jpg" data-lightbox="mygallery" data-title="Style-Color Scheme"><img src="img/purrsuitimages/style2.600px.jpg"></a>
+          <a href="img/purrsuitimages/style3.1200px.jpg" data-lightbox="mygallery" data-title="Style-Fonts"><img src="img/purrsuitimages/style3.600px.jpg"></a>
+          <a href="img/purrsuitimages/style4.1200px.jpg" data-lightbox="mygallery" data-title="Style-Icons"><img src="img/purrsuitimages/style4.600px.jpg"></a>
+          <a href="img/purrsuitimages/style5.1200px.jpg" data-lightbox="mygallery" data-title="Style-Buttons"><img src="img/purrsuitimages/style5.600px.jpg"></a>
+          <a href="img/purrsuitimages/style6.1200px.jpg" data-lightbox="mygallery" data-title="Style-Language and Tone"><img src="img/purrsuitimages/style6.600px.jpg"></a>
+          <a href="img/purrsuitimages/style7.1200px.jpg" data-lightbox="mygallery" data-title="Style-Imagery"><img src="img/purrsuitimages/style7.600px.jpg"></a>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+      </div>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-</div>
 
-<div class="wireframe">
-<h1>
-  Wireframe Evolution
-  </h1>
-  </div>
-<div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 6</div>
-    <img src="img/purrsuitimages/wireframe10.600px.jpg">
-    <div class="text">Loading/Splash Page</div>
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 6</div>
-    <img src="img/purrsuitimages/wireframe11.600px.jpg">
-    <div class="text">Login Page</div>
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 6</div>
-    <img src="img/purrsuitimages/wireframe12.600px.jpg">
-    <div class="text">Onboarding</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 6</div>
-    <img src="img/purrsuitimages/wireframe13.600px.jpg">
-    <div class="text">In Game Map</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 6</div>
-    <img src="img/purrsuitimages/wireframe14.600px.jpg">
-    <div class="text">Share A Photo</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="img/purrsuitimages/wireframe15.600px.jpg">
-    <div class="text">Iventory Page</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-</div>
-<div class="testing">
-<h1>
-  User Testing & Results
-  </h1>
-  </div>
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 7</div>
-    <img src="img/purrsuitimages/usertest1.600px.png">
-    <div class="text">Participants</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 7</div>
-    <img src="img/purrsuitimages/usertest2.600px.jpg">
-    <div class="text">Affinity Map</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 7</div>
-    <img src="img/purrsuitimages/usertest3.600px.jpg">
-    <div class="text">Four Subject Card Sort</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 7</div>
-    <img src="img/purrsuitimages/usertest4.600px.jpg">
-    <div class="text">Rainbow Chart</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 7</div>
-    <img src="img/purrsuitimages/usertest5.600px.jpg">
-    <div class="text">Userability Test Results 1</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 7</div>
-    <img src="img/purrsuitimages/usertest6.600px.jpg">
-    <div class="text">Userability Test Results 2</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">7 / 7</div>
-    <img src="img/purrsuitimages/usertest7.600px.jpg">
-    <div class="text">Userability Test Results 3</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-</div>
 </div>
 </main>
-<div id="contact-section" class="container">
- <footer>
-   <div class="get">
-   <h2>
-     Get in Touch
-   </h2>
- <p>
-   Whether you need a Ux Designer on your team, an Illustrator to bring your stories to life or just want to nerd out over the newest Disney film I'd love to hear from you. </p>
-   <p>
-     Call: <a href="tel:6784691702">678 469 1702</a>
- </p>
-   <p>
-     Prefer sending an email?
- </p>
- <div>
-   <a href="middy.designs@gmail.com" class="button email">Email me</a>
-   <div>
-     </div>
-     <!--Social Media Layout and Placeholders-->
-     <a href="https://www.linkedin.com/in/melissamiddymathieu/" target="_blank">
-         <img
-         class="linkedin"
-         src="img/profile/linkedin.png"
-         alt="Linkedin">
-     </a>
-   </div>
-   <div>
-     <p>
-       Copyright Melissa Middy Mathieu2020
-     </p>
-   </div>
- </div>
- </footer>
- </div>
- </body>
- </html>
+<div id="contact-section" div="container">
+<footer>
+  <div class="get">
+  <h2>
+    Get in Touch
+  </h2>
+<p>
+  Whether you need a Ux Designer on your team, an Illustrator to bring your stories to life or just want to nerd out over the newest Disney film I'd love to hear from you. </p>
+  <p>
+    Call: <a href="tel:6784691702">678 469 1702</a>
+</p>
+  <p>
+    Prefer sending an email?
+</p>
+<div>
+  <a href="middy.designs@gmail.com" class="button email">Email me
+  </a>
+  <div>
+    <!--Social Media Layout and Placeholders-->
+    <a href="https://www.linkedin.com/in/melissamiddymathieu/" target="_blank">
+        <img
+        class="linkedin"
+        src="img/profile/linkedin.png"
+        alt="Linkedin">
+    </a>
+  </div>
+  <div>
+    <p>
+      Copyright Melissa Middy Mathieu2020
+    </p>
+  </div>
+</div>
+</div>
+</footer>
+<!-- End Footer-->
+</div>
+<script src="js/js_code/scripts.js"></script>
+</body>
+</html>
