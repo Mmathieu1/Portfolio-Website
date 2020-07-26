@@ -129,9 +129,9 @@ main {
 
 .button.email {
   background-color: transparent;
-  color: #35a0bf;
+  color: #23687D;
   text-transform: uppercase;
-  border: 2px solid #35a0bf;
+  border: 2px solid #23687D;
 }
 
 .button.email:hover {
@@ -141,7 +141,7 @@ main {
 
 .button.home {
   background-color: transparent;
-  color: #35a0bf;
+  color: #23687D;
   border-bottom: none;
 }
 
@@ -151,7 +151,7 @@ main {
 
 .button.about {
   background-color: transparent;
-  color: #35a0bf;
+  color: #23687D;
   border-bottom: none;
 }
 
@@ -161,7 +161,7 @@ main {
 
 .button.contact {
   background-color: transparent;
-  color: #35a0bf;
+  color: #23687D;
   border-bottom: none;
 }
 
@@ -171,7 +171,7 @@ main {
 
 .button.resume {
   background-color: transparent;
-  color: #35a0bf;
+  color: #23687D;
   border-bottom: none;
 }
 
@@ -259,18 +259,22 @@ nav>ul>li>a {
 
 .overview {
   text-align: center;
+  margin: 20px 20px;
 }
 
 .purpose {
   text-align: center;
+  margin: 20px 20px;
 }
 
 .approach {
   text-align: center;
+  margin: 20px 20px;
 }
 
 .tools {
   text-align: center;
+  margin: 20px 20px;
 }
 
 .gal {
@@ -321,7 +325,7 @@ nav>ul>li>a {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #35a0bf;
+  border-top: 1px solid #23687D;
 }
 
 .navtoggle.responsive li:last-child {
@@ -371,12 +375,35 @@ nav>ul>li>a {
   align-items: center;
 }
 
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+#pawsitive {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+#cheese {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+#purrsuit {
+  text-align: center;
+  margin: 20px 20px;
+}
 
 /*CSS animation of cat on homepage*/
 .adopt {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+.kitty {
+  margin: 20px 20px;
 }
 
 @keyframes color-change-heart {
