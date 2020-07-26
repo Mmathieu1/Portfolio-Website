@@ -1,8 +1,8 @@
 /*
 Colors used:
 Primary Background Color (white): #ffffff
-Secondary Color 1 (blue): #22ccd5
-Secondary Background (yellow): #fed831
+Secondary Color 1 (blue): #35a0bf
+Secondary Background (yellow): #fed831 
 Font Color (black): #333333
 */
 
@@ -55,7 +55,7 @@ img {
 }
 
 a {
-  color: #22ccd5;
+  color: #35a0bf;
   text-decoration: none;
   /*no underlinging*/
 }
@@ -112,7 +112,7 @@ main {
 .button {
   /*keep this rule close to the bottom to avoid overide*/
   display: inline-block;
-  background-color: #22ccd5;
+  background-color: #5fd6f9;
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -129,9 +129,9 @@ main {
 
 .button.email {
   background-color: transparent;
-  color: #22ccd5;
+  color: #35a0bf;
   text-transform: uppercase;
-  border: 2px solid #22ccd5;
+  border: 2px solid #35a0bf;
 }
 
 .button.email:hover {
@@ -141,7 +141,7 @@ main {
 
 .button.home {
   background-color: transparent;
-  color: #22ccd5;
+  color: #35a0bf;
   border-bottom: none;
 }
 
@@ -151,7 +151,7 @@ main {
 
 .button.about {
   background-color: transparent;
-  color: #22ccd5;
+  color: #35a0bf;
   border-bottom: none;
 }
 
@@ -161,7 +161,7 @@ main {
 
 .button.contact {
   background-color: transparent;
-  color: #22ccd5;
+  color: #35a0bf;
   border-bottom: none;
 }
 
@@ -171,13 +171,14 @@ main {
 
 .button.resume {
   background-color: transparent;
-  color: #22ccd5;
+  color: #35a0bf;
   border-bottom: none;
 }
 
 .button.resume:hover {
   color: #333333
 }
+
 
 /* Layout Styling*/
 
@@ -320,7 +321,7 @@ nav>ul>li>a {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
+  border-top: 1px solid #35a0bf;
 }
 
 .navtoggle.responsive li:last-child {
@@ -344,68 +345,35 @@ nav>ul>li>a {
   transform: scale(1.1);
 }
 
-
-
-/*CSS Animation on home page start*/
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-
-  50% {
-    fill: #fcffad;
-  }
-
-  100% {
-    fill: #f76414;
-  }
+#myskills {
+  text-align: center;
 }
 
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+.design>ul {
+  list-style-type: none;
 }
 
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
+.skills>ul {
+  list-style-type: none;
 }
 
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+.tools>ul {
+  list-style-type: none;
 }
 
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
+.code>ul {
+  list-style-type: none;
 }
 
-.cloud-back {
-  animation-duration: 34s;
-  animation-name: cloud-move-reverse;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+.return {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*End CSS animation on home page*/
+.pawsitive.image {
+  background-size: contain;
+}
 
 /*CSS animation of cat on homepage*/
 .adopt {
@@ -574,4 +542,3 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {}
-}
