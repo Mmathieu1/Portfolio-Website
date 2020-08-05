@@ -112,7 +112,7 @@ main {
 .button {
   /*keep this rule close to the bottom to avoid overide*/
   display: inline-block;
-  background-color: #35a0bf;
+  background-color: #a2adb1;
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
